@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Navigation from '../components/Navigation';
@@ -38,7 +37,7 @@ const Index = () => {
               </p>
               <div className="flex flex-col sm:flex-row gap-4 mt-8">
                 <Link
-                  to="/register"
+                  to="/add-product"
                   className="bg-primary text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-700 transition-colors flex items-center justify-center"
                 >
                   Start Selling Today
@@ -349,7 +348,7 @@ const Index = () => {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
-              to="/register"
+              to="/add-product"
               className="bg-white text-primary px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors"
             >
               Get Started Free

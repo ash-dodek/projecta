@@ -9,6 +9,7 @@ import Products from "./pages/Products";
 import ProductDetail from "./pages/ProductDetail";
 import Affiliates from "./pages/Affiliates";
 import Vendors from "./pages/Vendors";
+import AddProduct from "./pages/AddProduct";
 import Cart from "./pages/Cart";
 import Checkout from "./pages/Checkout";
 import Payment from "./pages/Payment";
@@ -31,6 +32,7 @@ const App = () => (
           <Route path="/product/:id" element={<ProductDetail />} />
           <Route path="/affiliates" element={<Affiliates />} />
           <Route path="/vendors" element={<Vendors />} />
+          <Route path="/add-product" element={<AddProduct />} />
           <Route path="/cart" element={<Cart />} />
           <Route path="/checkout" element={<Checkout />} />
           <Route path="/payment" element={<Payment />} />
