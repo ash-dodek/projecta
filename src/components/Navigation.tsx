@@ -39,8 +39,8 @@ const Navigation = () => {
             <Link to="/vendors" className={`transition-colors ${isActive('/vendors')}`}>
               Sell Products
             </Link>
-            <Link to="/about" className={`transition-colors ${isActive('/about')}`}>
-              About
+            <Link to="/my-products" className={`transition-colors ${isActive('/my-products')}`}>
+              My Products
             </Link>
           </div>
 
@@ -73,6 +73,12 @@ const Navigation = () => {
                     </Link>
                     <Link to="/dashboard" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
                       Dashboard
+                    </Link>
+                    <Link to="/wallet" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
+                      Wallet
+                    </Link>
+                    <Link to="/admin" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
+                      Admin Panel
                     </Link>
                   </div>
                 </div>
@@ -107,11 +113,14 @@ const Navigation = () => {
               <Link to="/vendors" className="block px-3 py-2 text-gray-600 hover:text-primary transition-colors">
                 Sell Products
               </Link>
-              <Link to="/about" className="block px-3 py-2 text-gray-600 hover:text-primary transition-colors">
-                About
+              <Link to="/my-products" className="block px-3 py-2 text-gray-600 hover:text-primary transition-colors">
+                My Products
               </Link>
               <Link to="/cart" className="block px-3 py-2 text-gray-600 hover:text-primary transition-colors">
                 Cart (3)
+              </Link>
+              <Link to="/wallet" className="block px-3 py-2 text-gray-600 hover:text-primary transition-colors">
+                Wallet
               </Link>
               <Link to="/login" className="block px-3 py-2 text-gray-600 hover:text-primary transition-colors">
                 Login
